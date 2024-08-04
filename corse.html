@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses - E-Learning Website</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #8f8dfc;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .course {
+            background: white;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .course h2 {
+            color: #333;
+        }
+        .course p {
+            color: #666;
+            line-height: 1.6;
+        }
+        .course button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 10px;
+            background-color: #c4acfc;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .course button:hover {
+            background-color: #45a049;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>Our Courses</h1>
+    </div>
+</header>
+
+<div class="container">
+    <div class="course">
+        <h2>HTML</h2>
+        <p>Learn the basics of HTML and build the foundation for your web development skills.</p>
+        <button onclick="window.location.href='htmlcourse.html'">View Playlist</button>
+    </div>
+    <div class="course">
+        <h2>CSS</h2>
+        <p>Understand how to style and layout web pages using CSS.</p>
+        <button onclick="window.location.href='csscourse.html'">View Playlist</button>
+    </div>
+    <div class="course">
+        <h2>JavaScript</h2>
+        <p>Discover the power of JavaScript to create dynamic and interactive web pages.</p>
+        <button onclick="window.location.href='jscourse.html'">View Playlist</button>
+    </div>
+    <div class="course">
+        <h2>jQuery</h2>
+        <p>Learn how to use jQuery to simplify JavaScript programming and enhance web interactions.</p>
+        <button onclick="window.location.href='jquery.html'">View Playlist</button>
+    </div>
+    <div class="course">
+        <h2>SASS</h2>
+        <p>Get introduced to SASS and learn how to write more efficient and maintainable CSS.</p>
+        <button onclick="window.location.href='sasscourse.html'">View Playlist</button>
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2024 E-Learning Website. All Rights Reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
